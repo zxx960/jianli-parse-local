@@ -1,0 +1,38 @@
+{ 
+  "name": "jianli-jiexi-zhushou",
+  "version": "0.1.0",
+  "description": "本地简历解析助手（Electron + Vue）",
+  "main": "build/main/main.js",
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "build": "node scripts/build.js",
+    "make": "electron-forge make",
+    "package": "electron-forge package",
+    "premake": "npm run build",
+    "prepackage": "npm run build"
+  },
+  "repository": "https://github.com/deluze/electron-vue-template",
+  "author": {
+    "name": "Deluze",
+    "url": "https://github.com/Deluze"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.10.2",
+    "@electron-forge/maker-deb": "^7.10.2",
+    "@electron-forge/maker-rpm": "^7.10.2",
+    "@electron-forge/maker-squirrel": "^7.10.2",
+    "@electron-forge/maker-zip": "^7.10.2",
+    "@vitejs/plugin-vue": "^4.4.1",
+    "chalk": "^4.1.2",
+    "chokidar": "^3.5.3",
+    "electron": "^32.1.2",
+    "vite": "^4.5.0"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "mammoth": "^1.11.0",
+    "node-llama-cpp": "^3.14.2",
+    "pdf-parse-fixed": "^1.1.1",
+    "vue": "^3.3.8"
+  }
+}
